@@ -4,7 +4,7 @@ public class ArrayRotation {
     public static void rotateArray(int[] arr, int k) {
         int n = arr.length;
         k = k % n;  // To handle cases where k > n
-
+//
         // Reverse the entire array
         reverse(arr, 0, n - 1);
 
