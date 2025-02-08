@@ -6,7 +6,7 @@ public class RemoveElement{
             if(nums[i]!=val){
                 nums[count]=nums[i];
                 count++;
-            }//added
+            }//adde
         }
         return count;
     }
