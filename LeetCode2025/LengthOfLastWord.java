@@ -10,7 +10,7 @@ public int lengthOfLastWord (String s) {
 			return count;
 		}
 	}
-	return -1;
+	return -1;//
 }
 	public static void main(String[] args) {
 		LengthOfLastWord word=new LengthOfLastWord();
